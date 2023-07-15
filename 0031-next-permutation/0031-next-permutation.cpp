@@ -21,3 +21,10 @@ public:
         return reverse(nums.begin()+ind+1,nums.end());
     }
 };
+   another one 
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        next_permutation(nums.begin(),nums.end());  
+    }
+};
